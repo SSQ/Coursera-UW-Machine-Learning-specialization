@@ -10,6 +10,9 @@
   - [x] [Deep Features for Image Classification](https://github.com/SSQ/Coursera-UW-Machine-Learning-Foundations-A-Case-Study-Approach/tree/master/Week%206%20PA%201)
   - [x] [Deep Features for Image Retrieval](https://github.com/SSQ/Coursera-UW-Machine-Learning-Foundations-A-Case-Study-Approach/tree/master/Week%206%20PA%202)
   - [x] [Deep Features for Image Retrieval Answers](https://github.com/SSQ/Coursera-UW-Machine-Learning-Foundations-A-Case-Study-Approach/tree/master/Week%206%20PA%203)
+
+- [Details](https://github.com/SSQ/Coursera-UW-Machine-Learning-Foundations-A-Case-Study-Approach)
+  
 ## [2. Machine Learning: Regression](https://www.coursera.org/learn/ml-regression)
 - Description
 
@@ -28,7 +31,9 @@ Concepts | <ul><li>Loss functions, bias-variance tradeoff</li><li>cross-validati
   - [x] [Using LASSO to select features](https://github.com/SSQ/Coursera-UW-Machine-Learning-Regression/tree/master/Programming%20Assignment%207)
   - [x] [Implementing LASSO using coordinate descent](https://github.com/SSQ/Coursera-UW-Machine-Learning-Regression/tree/master/Programming%20Assignment%208)
   - [x] [Predicting house prices using k-nearest neighbors regression](https://github.com/SSQ/Coursera-UW-Machine-Learning-Regression/tree/master/Week%206%20PA%201)
-
+  
+- [Details](https://github.com/SSQ/Coursera-UW-Machine-Learning-Regression)
+  
 ## [3. Machine Learning: Classification](https://www.coursera.org/learn/ml-classification)
 - Description
 
@@ -50,6 +55,8 @@ Core ML | <ul><li>Alleviating overfitting</li><li>Handling missing data</li><li>
   - [x] [Exploring precision and recall](https://github.com/SSQ/Coursera-UW-Machine-Learning-Classification/tree/master/Week%206%20PA%201)
   - [x] [Training Logistic Regression via Stochastic Gradient Ascent](https://github.com/SSQ/Coursera-UW-Machine-Learning-Classification/tree/master/Week%207%20PA%201)
     
+- [Details](https://github.com/SSQ/Coursera-UW-Machine-Learning-Classification)
+  
 ## [4. Machine Learning: Clustering & Retrieval](https://www.coursera.org/learn/ml-clustering-and-retrieval)
 - Description
 
@@ -67,3 +74,5 @@ Core ML | <ul><li>Unsupervised learning</li><li>Probabilistic modeling</li><li>D
   - [x] [Clustering text data with Gaussian mixtures](https://github.com/SSQ/Coursera-UW-Machine-Learning-Clustering-Retrieval/tree/master/Week%204%20PA%202)
   - [x] [Modeling text topics with Latent Dirichlet Allocation](https://github.com/SSQ/Coursera-UW-Machine-Learning-Clustering-Retrieval/tree/master/Week%205%20PA%201)
   - [x] [Modeling text data with a hierarchy of clusters](https://github.com/SSQ/Coursera-UW-Machine-Learning-Clustering-Retrieval/tree/master/Week%206%20PA%201)
+
+- [Details](https://github.com/SSQ/Coursera-UW-Machine-Learning-Clustering-Retrieval)
