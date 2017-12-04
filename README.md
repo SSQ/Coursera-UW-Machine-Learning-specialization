@@ -1,78 +1,231 @@
-# [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning)
+# Machine Learning Specialization
 
-## [1. Machine Learning Foundations: A Case Study Approach](https://www.coursera.org/learn/ml-foundations)
-- PA
-  - [x] [Familiar with Ipython notebook and Sframe](https://github.com/SSQ/Coursera-UW-Machine-Learning-Foundations-A-Case-Study-Approach/tree/master/Programming%20Assignment%201)
-  - [x] [Implement Linear Regression model with different several features](https://github.com/SSQ/Coursera-UW-Machine-Learning-Foundations-A-Case-Study-Approach/tree/master/Programming%20Assignment%202)
-  - [x] [Implement Logistic Regression model with different several features](https://github.com/SSQ/Coursera-UW-Machine-Learning-Foundations-A-Case-Study-Approach/tree/master/Programming%20Assignment%203)
-  - [x] [Retrieving Wikipedia articles](https://github.com/SSQ/Coursera-UW-Machine-Learning-Foundations-A-Case-Study-Approach/tree/master/Week%204%20PA%201)
-  - [x] [Recommending songs](https://github.com/SSQ/Coursera-UW-Machine-Learning-Foundations-A-Case-Study-Approach/tree/master/Week%205%20PA%201)
-  - [x] [Deep Features for Image Classification](https://github.com/SSQ/Coursera-UW-Machine-Learning-Foundations-A-Case-Study-Approach/tree/master/Week%206%20PA%201)
-  - [x] [Deep Features for Image Retrieval](https://github.com/SSQ/Coursera-UW-Machine-Learning-Foundations-A-Case-Study-Approach/tree/master/Week%206%20PA%202)
-  - [x] [Deep Features for Image Retrieval Answers](https://github.com/SSQ/Coursera-UW-Machine-Learning-Foundations-A-Case-Study-Approach/tree/master/Week%206%20PA%203)
+Course can be found in [Coursera](https://www.coursera.org/specializations/machine-learning)
 
-- [Details](https://github.com/SSQ/Coursera-UW-Machine-Learning-Foundations-A-Case-Study-Approach)
+Partial notes can be found in my [Blog](https://ssq.github.io/2017/08/19/Coursera%20UW%20Machine%20Learning%20Specialization%20Notebook/)
+
+## 1. Machine Learning Foundations: A Case Study Approach
+Course can be found in [Coursera](https://www.coursera.org/learn/ml-foundations)
+<table>
+  <tr>
+    <th>Programming Assignments</th>
+  </tr>
+  <tr>
+    <td>
+      <ul>
+        <li>
+          [x] <a href="https://github.com/SSQ/Coursera-UW-Machine-Learning-Foundations-A-Case-Study-Approach/tree/master/Programming%20Assignment%201">Familiar with Ipython notebook and Sframe</a>
+        </li>
+        <li>
+          [x] <a href="https://github.com/SSQ/Coursera-UW-Machine-Learning-Foundations-A-Case-Study-Approach/tree/master/Programming%20Assignment%202">Implement Linear Regression model with different several features</a>
+        </li>
+        <li>
+          [x] <a href="https://github.com/SSQ/Coursera-UW-Machine-Learning-Foundations-A-Case-Study-Approach/tree/master/Programming%20Assignment%203">Implement Logistic Regression model with different several features</a>
+        </li>
+        <li>
+          [x] <a href="https://github.com/SSQ/Coursera-UW-Machine-Learning-Foundations-A-Case-Study-Approach/tree/master/Week%204%20PA%201">Retrieving Wikipedia articles</a>
+        </li>
+        <li>
+          [x] <a href="https://github.com/SSQ/Coursera-UW-Machine-Learning-Foundations-A-Case-Study-Approach/tree/master/Week%205%20PA%201">Recommending songs</a>
+        </li>
+        <li>
+          [x] <a href="https://github.com/SSQ/Coursera-UW-Machine-Learning-Foundations-A-Case-Study-Approach/tree/master/Week%206%20PA%201">Deep Features for Image Classification</a>
+        </li>
+        <li>
+          [x] <a href="https://github.com/SSQ/Coursera-UW-Machine-Learning-Foundations-A-Case-Study-Approach/tree/master/Week%206%20PA%202">Deep Features for Image Retrieval</a>
+        </li>
+        <li>
+          [x] <a href="https://github.com/SSQ/Coursera-UW-Machine-Learning-Foundations-A-Case-Study-Approach/tree/master/Week%206%20PA%203">Deep Features for Image Retrieval Answers</a>
+        </li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+- More details about this course can be found in my [Github](https://github.com/SSQ/Coursera-UW-Machine-Learning-Foundations-A-Case-Study-Approach)
   
-## [2. Machine Learning: Regression](https://www.coursera.org/learn/ml-regression)
-- Description
-
-Models | <ul><li>Linear regression</li><li>Regularization: Ridge (L2), Lasso (L1)</li><li>Nearest neighbor and kernel regression</li></ul>
---|:--
-Algorithms | <ul><li>Gradient descent</li><li>Coordinate descent</li></ul>
-Concepts | <ul><li>Loss functions, bias-variance tradeoff</li><li>cross-validation, sparsity, overfitting</li><li>model selection, feature selection</li></ul>
-
-- PA
-  - [x] [Fitting a simple linear regression model on housing data](https://github.com/SSQ/Coursera-UW-Machine-Learning-Regression/tree/master/Programming%20Assignment%201)
-  - [x] [Exploring different multiple regression models for house price prediction](https://github.com/SSQ/Coursera-UW-Machine-Learning-Regression/tree/master/Programming%20Assignment%202)
-  - [x] [Implementing gradient descent for multiple regression](https://github.com/SSQ/Coursera-UW-Machine-Learning-Regression/tree/master/Programming%20Assignment%203)
-  - [x] [Exploring the bias-variance tradeoff](https://github.com/SSQ/Coursera-UW-Machine-Learning-Regression/tree/master/Programming%20Assignment%204)
-  - [x] [Observing effects of L2 penalty in polynomial regression](https://github.com/SSQ/Coursera-UW-Machine-Learning-Regression/tree/master/Programming%20Assignment%205)
-  - [x] [Implementing ridge regression via gradient descent](https://github.com/SSQ/Coursera-UW-Machine-Learning-Regression/tree/master/Programming%20Assignment%206)
-  - [x] [Using LASSO to select features](https://github.com/SSQ/Coursera-UW-Machine-Learning-Regression/tree/master/Programming%20Assignment%207)
-  - [x] [Implementing LASSO using coordinate descent](https://github.com/SSQ/Coursera-UW-Machine-Learning-Regression/tree/master/Programming%20Assignment%208)
-  - [x] [Predicting house prices using k-nearest neighbors regression](https://github.com/SSQ/Coursera-UW-Machine-Learning-Regression/tree/master/Week%206%20PA%201)
+## 2. Machine Learning: Regression
+Course can be found in [Coursera](https://www.coursera.org/learn/ml-regression)
+<table>
+  <tr>
+    <th>Description</th>
+    <th>Programming Assignments</th>
+  </tr>
+  <tr>
+    <td>
+      <table>
+        <tr>
+          <td>Models</td>
+          <td><ul><li>Linear regression</li><li>Regularization: Ridge (L2), Lasso (L1)</li><li>Nearest neighbor and kernel regression</li></ul></td>
+        </tr>
+        <tr>
+          <td>Algorithms</td>
+          <td><ul><li>Gradient descent</li><li>Coordinate descent</li></ul></td>
+        </tr>
+        <tr>
+          <td>Concepts</td>
+          <td><ul><li>Loss functions, bias-variance tradeoff</li><li>cross-validation, sparsity, overfitting</li><li>model selection, feature selection</li></ul></td>
+        </tr>
+      </table>
+    </td>
+    <td>
+      <ul>
+        <li>
+          [x] <a href="https://github.com/SSQ/Coursera-UW-Machine-Learning-Regression/tree/master/Programming%20Assignment%201">Fitting a simple linear regression model on housing data</a>
+        </li>
+        <li>
+          [x] <a href="https://github.com/SSQ/Coursera-UW-Machine-Learning-Regression/tree/master/Programming%20Assignment%202">Exploring different multiple regression models for house price prediction</a>
+        </li>
+        <li>
+          [x] <a href="https://github.com/SSQ/Coursera-UW-Machine-Learning-Regression/tree/master/Programming%20Assignment%203">Implementing gradient descent for multiple regression</a>
+        </li>
+        <li>
+          [x] <a href="https://github.com/SSQ/Coursera-UW-Machine-Learning-Regression/tree/master/Programming%20Assignment%204">Exploring the bias-variance tradeoff</a>
+        </li>
+        <li>
+          [x] <a href="https://github.com/SSQ/Coursera-UW-Machine-Learning-Regression/tree/master/Programming%20Assignment%205">Observing effects of L2 penalty in polynomial regression</a>
+        </li>
+        <li>
+          [x] <a href="https://github.com/SSQ/Coursera-UW-Machine-Learning-Regression/tree/master/Programming%20Assignment%206">Implementing ridge regression via gradient descent</a>
+        </li>
+        <li>
+          [x] <a href="https://github.com/SSQ/Coursera-UW-Machine-Learning-Regression/tree/master/Programming%20Assignment%207">Using LASSO to select features</a>
+        </li>
+        <li>
+          [x] <a href="https://github.com/SSQ/Coursera-UW-Machine-Learning-Regression/tree/master/Programming%20Assignment%208">Implementing LASSO using coordinate descent</a>
+        </li>
+        <li>
+          [x] <a href="https://github.com/SSQ/Coursera-UW-Machine-Learning-Regression/tree/master/Week%206%20PA%201">Predicting house prices using k-nearest neighbors regression</a>
+        </li>
+      </ul>
+    </td>
+  </tr>
+</table>
   
-- [Details](https://github.com/SSQ/Coursera-UW-Machine-Learning-Regression)
+- More details about this course can be found in my [Github](https://github.com/SSQ/Coursera-UW-Machine-Learning-Regression)
   
-## [3. Machine Learning: Classification](https://www.coursera.org/learn/ml-classification)
-- Description
+## 3. Machine Learning: Classification
+Course can be found in [Coursera](https://www.coursera.org/learn/ml-classification)
 
-Models | <ul><li>Linear classifiers</li><li>Logistic regression</li><li>Decision trees</li><li>Ensembles</li></ul>
---|:--
-Algorithms | <ul><li>Stochastic gradient descent</li><li>Recursive greedy</li><li>Boosting</li></ul>
-Concepts | <ul><li>Decision boundaries, MLE</li><li>ensemble methods, online learning</li></ul>
-Core ML | <ul><li>Alleviating overfitting</li><li>Handling missing data</li><li>Precision-recall</li><li>Online learning</li></ul>
-
-- PA
-  - [x] [Predicting sentiment from product reviews](https://github.com/SSQ/Coursera-UW-Machine-Learning-Classification/tree/master/Programming%20Assignment%201)
-  - [x] [Implementing logistic regression from scratch](https://github.com/SSQ/Coursera-UW-Machine-Learning-Classification/tree/master/Programming%20Assignment%202)  
-  - [x] [Implementing Logistic Regression with L2 regularization](https://github.com/SSQ/Coursera-UW-Machine-Learning-Classification/tree/master/Programming%20Assignment%203)
-  - [x] [Identifying safe loans with decision trees](https://github.com/SSQ/Coursera-UW-Machine-Learning-Classification/tree/master/Programming%20Assignment%204)
-  - [x] [Implementing binary decision trees from scratch](https://github.com/SSQ/Coursera-UW-Machine-Learning-Classification/tree/master/Programming%20Assignment%205)
-  - [x] [Decision Trees in Practice for preventing overfitting](https://github.com/SSQ/Coursera-UW-Machine-Learning-Classification/tree/master/Programming%20Assignment%206) 
-  - [x] [Exploring Ensemble Methods with pre-implemented gradient boosted trees](https://github.com/SSQ/Coursera-UW-Machine-Learning-Classification/tree/master/Week%205%20PA%201)
-  - [x] [Implement your own boosting module](https://github.com/SSQ/Coursera-UW-Machine-Learning-Classification/tree/master/Week%205%20PA%202)
-  - [x] [Exploring precision and recall](https://github.com/SSQ/Coursera-UW-Machine-Learning-Classification/tree/master/Week%206%20PA%201)
-  - [x] [Training Logistic Regression via Stochastic Gradient Ascent](https://github.com/SSQ/Coursera-UW-Machine-Learning-Classification/tree/master/Week%207%20PA%201)
+<table>
+  <tr>
+    <th>Description</th>
+    <th>Programming Assignments</th>
+  </tr>
+  <tr>
+    <td>
+      <table>
+        <tr>
+          <td>Models</td>
+          <td><ul><li>Linear classifiers</li><li>Logistic regression</li><li>Decision trees</li><li>Ensembles</li></ul></td>
+        </tr>
+        <tr>
+          <td>Algorithms</td>
+          <td><ul><li>Stochastic gradient descent</li><li>Recursive greedy</li><li>Boosting</li></ul></td>
+        </tr>
+        <tr>
+          <td>Concepts</td>
+          <td><ul><li>Decision boundaries, MLE</li><li>ensemble methods, online learning</li></ul></td>
+        </tr>
+        <tr>
+          <td>Core ML</td>
+          <td><ul><li>Alleviating overfitting</li><li>Handling missing data</li><li>Precision-recall</li><li>Online learning</li></ul></td>
+        </tr>
+      </table>
+    </td>
+    <td>
+      <ul>
+        <li>
+          [x] <a href="https://github.com/SSQ/Coursera-UW-Machine-Learning-Classification/tree/master/Programming%20Assignment%201">Predicting sentiment from product reviews</a>
+        </li>
+        <li>
+          [x] <a href="https://github.com/SSQ/Coursera-UW-Machine-Learning-Classification/tree/master/Programming%20Assignment%202">Implementing logistic regression from scratch</a>
+        </li>
+        <li>
+          [x] <a href="https://github.com/SSQ/Coursera-UW-Machine-Learning-Classification/tree/master/Programming%20Assignment%203">Implementing Logistic Regression with L2 regularization</a>
+        </li>
+        <li>
+          [x] <a href="https://github.com/SSQ/Coursera-UW-Machine-Learning-Classification/tree/master/Programming%20Assignment%204">Identifying safe loans with decision trees</a>
+        </li>
+        <li>
+          [x] <a href="https://github.com/SSQ/Coursera-UW-Machine-Learning-Classification/tree/master/Programming%20Assignment%205">Implementing binary decision trees from scratch</a>
+        </li>
+        <li>
+          [x] <a href="https://github.com/SSQ/Coursera-UW-Machine-Learning-Classification/tree/master/Programming%20Assignment%206">Decision Trees in Practice for preventing overfitting</a>
+        </li>
+        <li>
+          [x] <a href="https://github.com/SSQ/Coursera-UW-Machine-Learning-Classification/tree/master/Week%205%20PA%201">Exploring Ensemble Methods with pre-implemented gradient boosted trees</a>
+        </li>
+        <li>
+          [x] <a href="https://github.com/SSQ/Coursera-UW-Machine-Learning-Classification/tree/master/Week%205%20PA%202">Implement your own boosting module</a>
+        </li>
+        <li>
+          [x] <a href="https://github.com/SSQ/Coursera-UW-Machine-Learning-Classification/tree/master/Week%206%20PA%201">Exploring precision and recall</a>
+        </li>
+        <li>
+          [x] <a href="https://github.com/SSQ/Coursera-UW-Machine-Learning-Classification/tree/master/Week%207%20PA%201">Training Logistic Regression via Stochastic Gradient Ascent</a>
+        </li>
+      </ul>
+    </td>
+  </tr>
+</table>
     
-- [Details](https://github.com/SSQ/Coursera-UW-Machine-Learning-Classification)
+- More details about this course can be found in my [Github](https://github.com/SSQ/Coursera-UW-Machine-Learning-Classification)
   
-## [4. Machine Learning: Clustering & Retrieval](https://www.coursera.org/learn/ml-clustering-and-retrieval)
-- Description
+## 4. Machine Learning: Clustering & Retrieval
+Course can be found in [Coursera](https://www.coursera.org/learn/ml-clustering-and-retrieval)
 
-Models | <ul><li>Nearest neighbors</li><li>Clustering, mixtures of Gaussians</li><li>Latent Dirichlet allocation (LDA)</li></ul>
---|:--
-Algorithms | <ul><li>K-means, MapReduce</li><li>K-NN, KD-trees, locality-sensitive hashing (LSH)</li><li>Expectation-maximization (EM)</li><li>Gibbs sampling</li></ul>
-Concepts | <ul><li>Distance metrics, approximation algorithms,</li><li>hashing, sampling algorithms, scaling up with map-reduce</li></ul>
-Core ML | <ul><li>Unsupervised learning</li><li>Probabilistic modeling</li><li>Data parallel problems</li><li>Bayesian inference</li></ul>
+<table>
+  <tr>
+    <th>Description</th>
+    <th>Programming Assignments</th>
+  </tr>
+  <tr>
+    <td>
+      <table>
+        <tr>
+          <td>Models</td>
+          <td><ul><li>Nearest neighbors</li><li>Clustering, mixtures of Gaussians</li><li>Latent Dirichlet allocation (LDA)</li></ul></td>
+        </tr>
+        <tr>
+          <td>Algorithms</td>
+          <td><ul><li>K-means, MapReduce</li><li>K-NN, KD-trees, locality-sensitive hashing (LSH)</li><li>Expectation-maximization (EM)</li><li>Gibbs sampling</li></ul></td>
+        </tr>
+        <tr>
+          <td>Concepts</td>
+          <td><ul><li>Distance metrics, approximation algorithms,</li><li>hashing, sampling algorithms, scaling up with map-reduce</li></ul></td>
+        </tr>
+        <tr>
+          <td>Core ML</td>
+          <td><ul><li>Unsupervised learning</li><li>Probabilistic modeling</li><li>Data parallel problems</li><li>Bayesian inference</li></ul></td>
+        </tr>
+      </table>
+    </td>
+    <td>
+      <ul>
+        <li>
+          [x] <a href="https://github.com/SSQ/Coursera-UW-Machine-Learning-Clustering-Retrieval/tree/master/Week%201%20PA%201">Choosing features and metrics for nearest neighbor search</a>
+        </li>
+        <li>
+          [x] <a href="https://github.com/SSQ/Coursera-UW-Machine-Learning-Clustering-Retrieval/tree/master/Week%201%20PA%202">Implementing Locality Sensitive Hashing from scratch</a>
+        </li>
+        <li>
+          [x] <a href="https://github.com/SSQ/Coursera-UW-Machine-Learning-Clustering-Retrieval/tree/master/Week%203%20PA%201">Clustering text data with k-means</a>
+        </li>
+        <li>
+          [x] <a href="https://github.com/SSQ/Coursera-UW-Machine-Learning-Clustering-Retrieval/tree/master/Week%204%20PA%201">Implementing EM for Gaussian mixtures</a>
+        </li>
+        <li>
+          [x] <a href="https://github.com/SSQ/Coursera-UW-Machine-Learning-Clustering-Retrieval/tree/master/Week%204%20PA%202">Clustering text data with Gaussian mixtures</a>
+        </li>
+        <li>
+          [x] <a href="https://github.com/SSQ/Coursera-UW-Machine-Learning-Clustering-Retrieval/tree/master/Week%205%20PA%201">Modeling text topics with Latent Dirichlet Allocation</a>
+        </li>
+        <li>
+          [x] <a href="https://github.com/SSQ/Coursera-UW-Machine-Learning-Clustering-Retrieval/tree/master/Week%206%20PA%201">Modeling text data with a hierarchy of clusters</a>
+      </ul>
+    </td>
+  </tr>
+</table>
 
-- PA
-  - [x] [Choosing features and metrics for nearest neighbor search](https://github.com/SSQ/Coursera-UW-Machine-Learning-Clustering-Retrieval/tree/master/Week%201%20PA%201)
-  - [x] [Implementing Locality Sensitive Hashing from scratch](https://github.com/SSQ/Coursera-UW-Machine-Learning-Clustering-Retrieval/tree/master/Week%201%20PA%202)
-  - [x] [Clustering text data with k-means](https://github.com/SSQ/Coursera-UW-Machine-Learning-Clustering-Retrieval/tree/master/Week%203%20PA%201)
-  - [x] [Implementing EM for Gaussian mixtures](https://github.com/SSQ/Coursera-UW-Machine-Learning-Clustering-Retrieval/tree/master/Week%204%20PA%201)
-  - [x] [Clustering text data with Gaussian mixtures](https://github.com/SSQ/Coursera-UW-Machine-Learning-Clustering-Retrieval/tree/master/Week%204%20PA%202)
-  - [x] [Modeling text topics with Latent Dirichlet Allocation](https://github.com/SSQ/Coursera-UW-Machine-Learning-Clustering-Retrieval/tree/master/Week%205%20PA%201)
-  - [x] [Modeling text data with a hierarchy of clusters](https://github.com/SSQ/Coursera-UW-Machine-Learning-Clustering-Retrieval/tree/master/Week%206%20PA%201)
-
-- [Details](https://github.com/SSQ/Coursera-UW-Machine-Learning-Clustering-Retrieval)
+- More details about this course can be found in my [Github](https://github.com/SSQ/Coursera-UW-Machine-Learning-Clustering-Retrieval)
