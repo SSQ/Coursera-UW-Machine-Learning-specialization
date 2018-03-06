@@ -2,7 +2,7 @@
 
 Course can be found in [Coursera](https://www.coursera.org/specializations/machine-learning)
 
-Partial notes can be found in my [Blog](https://ssq.github.io/2017/08/19/Coursera%20UW%20Machine%20Learning%20Specialization%20Notebook/)
+Partial notes can be found in my blog [SSQ](https://ssq.github.io/2017/08/19/Coursera%20UW%20Machine%20Learning%20Specialization%20Notebook/)
 
 ## 1. Machine Learning Foundations: A Case Study Approach
 Course can be found in [Coursera](https://www.coursera.org/learn/ml-foundations)
@@ -42,8 +42,34 @@ Course can be found in [Coursera](https://www.coursera.org/learn/ml-foundations)
   </tr>
 </table>
 
-- More details about this course can be found in my [Github](https://github.com/SSQ/Coursera-UW-Machine-Learning-Foundations-A-Case-Study-Approach)
+Slides and more details about this course can be found in my Github [SSQ](https://github.com/SSQ/Coursera-UW-Machine-Learning-Foundations-A-Case-Study-Approach)
   
+- Week 1 Introduction
+  - Regression. Case study: Predicting house prices
+  - Classification. Case study: Analyzing sentiment
+  - Clustering & Retrieval. Case study: Finding documents
+  - Matrix Factorization & Dimensionality Reduction. Case study: Recommending Products
+  - Capstone. An intelligent application using deep learning
+  - [x] [Familiar with Ipython notebook and Sframe](https://github.com/SSQ/Coursera-UW-Machine-Learning-Foundations-A-Case-Study-Approach/tree/master/Programming%20Assignment%201)
+- Week 2 Regression Predicting House Prices
+  - Linear Regression
+  - Adding higher order effects
+  - Evaluating overfitting via training/test split
+  - Adding other features
+  - Other regression examples
+  - [x] [Implement Linear Regression model with different several features](https://github.com/SSQ/Coursera-UW-Machine-Learning-Foundations-A-Case-Study-Approach/tree/master/Programming%20Assignment%202)
+
+- Week 3 Classification Analyzing Sentiment
+  - Classifier applications
+  - Linear classifiers
+  - Decision boundaries
+  - Training and evaluating a classifier
+  - What’s a good accuracy?
+  - False positives, false negatives, and confusion matrices
+  - Learning curves: How much data do I need?
+  - Class probabilities
+  - [x] [Implement Logistic Regression model with different several features](https://github.com/SSQ/Coursera-UW-Machine-Learning-Foundations-A-Case-Study-Approach/tree/master/Programming%20Assignment%203)
+
 ## 2. Machine Learning: Regression
 Course can be found in [Coursera](https://www.coursera.org/learn/ml-regression)
 <table>
@@ -101,9 +127,89 @@ Course can be found in [Coursera](https://www.coursera.org/learn/ml-regression)
     </td>
   </tr>
 </table>
-  
-- More details about this course can be found in my [Github](https://github.com/SSQ/Coursera-UW-Machine-Learning-Regression)
-  
+  
+Slides and more details about this course can be found in my Github [SSQ](https://github.com/SSQ/Coursera-UW-Machine-Learning-Regression)
+
+- Week 1: Simple Linear Regression:
+    - Describe the input (features) and output (real-valued predictions) of a regression model
+    - Calculate a goodness-of-fit metric (e.g., RSS)
+    - Estimate model parameters to minimize RSS using gradient descent
+    - Interpret estimated model parameters
+    - Exploit the estimated model to form predictions
+    - Discuss the possible influence of high leverage points
+    - Describe intuitively how fitted line might change when assuming different goodness-of-fit metrics
+    - [x] [Fitting a simple linear regression model on housing data](https://github.com/SSQ/Coursera-UW-Machine-Learning-Regression/tree/master/Programming%20Assignment%201) 
+    
+- Week 2: Multiple Regression: Linear regression with multiple features
+    - Describe polynomial regression
+    - Detrend a time series using trend and seasonal components
+    - Write a regression model using multiple inputs or features thereof
+    - Cast both polynomial regression and regression with multiple inputs as regression with multiple features
+    - Calculate a goodness-of-fit metric (e.g., RSS)
+    - Estimate model parameters of a general multiple regression model to minimize RSS:
+      - In closed form
+      - Using an iterative gradient descent algorithm
+    - Interpret the coefficients of a non-featurized multiple regression fit
+    - Exploit the estimated model to form predictions
+    - Explain applications of multiple regression beyond house price modeling
+    - [x] [Exploring different multiple regression models for house price prediction](https://github.com/SSQ/Coursera-UW-Machine-Learning-Regression/tree/master/Programming%20Assignment%202)
+    - [x] [Implementing gradient descent for multiple regression](https://github.com/SSQ/Coursera-UW-Machine-Learning-Regression/tree/master/Programming%20Assignment%203)
+    
+- Week 3: Assessing Performance
+    - Describe what a loss function is and give examples
+    - Contrast training, generalization, and test error
+    - Compute training and test error given a loss function
+    - Discuss issue of assessing performance on training set
+    - Describe tradeoffs in forming training/test splits
+    - List and interpret the 3 sources of avg. prediction error
+      - Irreducible error, bias, and variance
+    - Discuss issue of selecting model complexity on test data and then using test error to assess generalization error
+    - Motivate use of a validation set for selecting tuning parameters (e.g., model complexity)
+    - Describe overall regression workflow
+    - [x] [Exploring the bias-variance tradeoff](https://github.com/SSQ/Coursera-UW-Machine-Learning-Regression/tree/master/Programming%20Assignment%204)
+    
+- Week 4: Ridge Regression
+    - Describe what happens to magnitude of estimated coefficients when model is overfit
+    - Motivate form of ridge regression cost function
+    - Describe what happens to estimated coefficients of ridge regression as tuning parameter λ is varied
+    - Interpret coefficient path plot
+    - Estimate ridge regression parameters:
+      - In closed form
+      - Using an iterative gradient descent algorithm
+    - Implement K-fold cross validation to select the ridge regression tuning parameter λ
+    - [x] [Observing effects of L2 penalty in polynomial regression](https://github.com/SSQ/Coursera-UW-Machine-Learning-Regression/tree/master/Programming%20Assignment%205)
+    - [x] [Implementing ridge regression via gradient descent](https://github.com/SSQ/Coursera-UW-Machine-Learning-Regression/tree/master/Programming%20Assignment%206)
+    
+- Week 5: Lasso Regression: Regularization for feature selection
+    - Perform feature selection using “all subsets” and “forward stepwise” algorithms
+    - Analyze computational costs of these algorithms
+    - Contrast greedy and optimal algorithms
+    - Formulate lasso objective
+    - Describe what happens to estimated lasso coefficients as tuning parameter λ is varied
+    - Interpret lasso coefficient path plot
+    - Contrast ridge and lasso regression
+    - Describe geometrically why L1 penalty leads to sparsity
+    - Estimate lasso regression parameters using an iterative coordinate descent algorithm
+    - Implement K-fold cross validation to select lasso tuning parameter λ
+    - [x] [Using LASSO to select features](https://github.com/SSQ/Coursera-UW-Machine-Learning-Regression/tree/master/Programming%20Assignment%207)
+    - [x] [Implementing LASSO using coordinate descent](https://github.com/SSQ/Coursera-UW-Machine-Learning-Regression/tree/master/Programming%20Assignment%208)
+    
+- Week 6: Going nonparametric: Nearest neighbor and kernel regression
+  - Motivate the use of nearest neighbor (NN) regression
+  - Define distance metrics in 1D and multiple dimensions
+  - Perform NN and k-NN regression
+  - Analyze computational costs of these algorithms
+  - Discuss sensitivity of NN to lack of data, dimensionality, and noise
+  - Perform weighted k-NN and define weights using a kernel
+  - Define and implement kernel regression
+  - Describe the effect of varying the kernel bandwidth λ or # of nearest neighbors k
+  - Select λ or k using cross validation
+  - Compare and contrast kernel regression with a global average fit
+  - Define what makes an approach nonparametric and why NN and kernel regression are considered nonparametric methods
+  - Analyze the limiting behavior of NN regression
+  - Use NN for classification
+  - [x] [Predicting house prices using k-nearest neighbors regression](https://github.com/SSQ/Coursera-UW-Machine-Learning-Regression/tree/master/Week%206%20PA%201)
+
 ## 3. Machine Learning: Classification
 Course can be found in [Coursera](https://www.coursera.org/learn/ml-classification)
 
@@ -170,8 +276,97 @@ Course can be found in [Coursera](https://www.coursera.org/learn/ml-classificati
   </tr>
 </table>
     
-- More details about this course can be found in my [Github](https://github.com/SSQ/Coursera-UW-Machine-Learning-Classification)
-  
+Slides and more details about this course can be found in my [Github](https://github.com/SSQ/Coursera-UW-Machine-Learning-Classification)
+
+- Week 1: 
+  - Linear Classifiers & Logistic Regression
+    - decision boundaries
+    - linear classifiers
+    - class probability
+    - logistic regression
+    - impact of coefficient values on logistic regression output
+    - 1-hot encoding
+    - multiclass classification using the 1-versus-all
+    - [x] [Predicting sentiment from product reviews](https://github.com/SSQ/Coursera-UW-Machine-Learning-Classification/tree/master/Programming%20Assignment%201)
+- Week 2: 
+  - Learning Linear Classifiers
+    - Maximum likelihood estimation
+    - Gradient ascent algorithm for learning logistic regression classifier
+    - Choosing step size for gradient ascent/descent
+    - (VERY OPTIONAL LESSON) Deriving gradient of logistic regression
+    - [x] [Implementing logistic regression from scratch](https://github.com/SSQ/Coursera-UW-Machine-Learning-Classification/tree/master/Programming%20Assignment%202)  
+  - Overfitting & Regularization in Logistic Regression
+    - Overfitting in classification
+    - Overconfident predictions due to overfitting
+    - L2 regularized logistic regression
+    - Sparse logistic regression
+    - [x] [Implementing Logistic Regression with L2 regularization](https://github.com/SSQ/Coursera-UW-Machine-Learning-Classification/tree/master/Programming%20Assignment%203)
+- Week 3:
+  - Decision Trees
+    - Predicting loan defaults with decision trees
+    - Learning decision trees
+        - Recursive greedy algorithm
+        - Learning a decision stump
+        - Selecting best feature to split on
+        - When to stop recursing
+    - Using the learned decision tree
+        - Traverse a decision tree to make predictions: Majority class predictions; Probability predictions; Multiclass classification
+    - Learning decision trees with continuous inputs
+        - Threshold splits for continuous inputs
+        - (OPTIONAL) Picking the best threshold to split on
+    - [x] [Identifying safe loans with decision trees](https://github.com/SSQ/Coursera-UW-Machine-Learning-Classification/tree/master/Programming%20Assignment%204)
+    - [x] [Implementing binary decision trees from scratch](https://github.com/SSQ/Coursera-UW-Machine-Learning-Classification/tree/master/Programming%20Assignment%205)
+- Week 4
+  - Overfitting in decision trees 
+    - Identify when overfitting in decision trees
+    - Prevent overfitting with early stopping
+      - Limit tree depth
+      - Do not consider splits that do not reduce classification error
+      - Do not split intermediate nodes with only few points
+    - Prevent overfitting by pruning complex trees
+      - Use a total cost formula that balances classification error and tree complexity
+      - Use total cost to merge potentially complex trees into simpler ones 
+    - [x] [Decision Trees in Practice for preventing overfitting](https://github.com/SSQ/Coursera-UW-Machine-Learning-Classification/tree/master/Programming%20Assignment%206) 
+  - Handling missing data 
+    - Describe common ways to handling missing data:
+      1. Skip all rows with any missing values
+      2. Skip features with many missing values
+      3. Impute missing values using other data points
+    - Modify learning algorithm (decision trees) to handle missing data:
+      1. Missing values get added to one branch of split
+      2. Use classification error to determine where missing values go 
+- Week 5
+  - Boosting 
+    - Identify notion ensemble classifiers
+    - Formalize ensembles as the weighted combination of simpler classifiers
+    - Outline the boosting framework – sequentially learn classifiers on weighted data
+    - Describe the AdaBoost algorithm
+      - Learn each classifier on weighted data
+      - Compute coefficient of classifier
+      - Recompute data weights
+      - Normalize weights
+    - Implement AdaBoost to create an ensemble of decision stumps
+    - Discuss convergence properties of AdaBoost & how to pick the maximum number of iterations T 
+    - [x] [Exploring Ensemble Methods with pre-implemented gradient boosted trees](https://github.com/SSQ/Coursera-UW-Machine-Learning-Classification/tree/master/Week%205%20PA%201)
+    - [x] [Implement your own boosting module](https://github.com/SSQ/Coursera-UW-Machine-Learning-Classification/tree/master/Week%205%20PA%202)
+- Week 6 
+  - Evaluating classifiers: Precision & Recall 
+    - Classification accuracy/error are not always right metrics
+    - Precision captures fraction of positive predictions that are correct
+    - Recall captures fraction of positive data correctly identified by the model
+    - Trade-off precision & recall by setting probability thresholds
+    - Plot precision-recall curves.
+    - Compare models by computing precision at k
+    - [x] [Exploring precision and recall](https://github.com/SSQ/Coursera-UW-Machine-Learning-Classification/tree/master/Week%206%20PA%201)
+- Week 7
+  - Scaling to Huge Datasets & Online Learning 
+    - Significantly speedup learning algorithm using stochastic gradient
+    - Describe intuition behind why stochastic gradient works
+    - Apply stochastic gradient in practice
+    - Describe online learning problems
+    - Relate stochastic gradient to online learning 
+    - [x] [Training Logistic Regression via Stochastic Gradient Ascent](https://github.com/SSQ/Coursera-UW-Machine-Learning-Classification/tree/master/Week%207%20PA%201)
+
 ## 4. Machine Learning: Clustering & Retrieval
 Course can be found in [Coursera](https://www.coursera.org/learn/ml-clustering-and-retrieval)
 
@@ -228,4 +423,65 @@ Course can be found in [Coursera](https://www.coursera.org/learn/ml-clustering-a
   </tr>
 </table>
 
-- More details about this course can be found in my [Github](https://github.com/SSQ/Coursera-UW-Machine-Learning-Clustering-Retrieval)
+Slides and more details about this course can be found in my Github [SSQ](https://github.com/SSQ/Coursera-UW-Machine-Learning-Clustering-Retrieval)
+
+- Week 1 Intro
+
+- Week 2 Nearest Neighbor Search: Retrieving Documents
+  - Implement nearest neighbor search for retrieval tasks
+  - Contrast document representations (e.g., raw word counts, tf-idf,…)
+    - Emphasize important words using tf-idf
+  - Contrast methods for measuring similarity between two documents
+    - Euclidean vs. weighted Euclidean
+    - Cosine similarity vs. similarity via unnormalized inner product
+  - Describe complexity of brute force search
+  - Implement KD-trees for nearest neighbor search
+  - Implement LSH for approximate nearest neighbor search
+  - Compare pros and cons of KD-trees and LSH, and decide which is more appropriate for given dataset
+  - [x] [Choosing features and metrics for nearest neighbor search](https://github.com/SSQ/Coursera-UW-Machine-Learning-Clustering-Retrieval/tree/master/Week%201%20PA%201)
+  - [x] [Implementing Locality Sensitive Hashing from scratch](https://github.com/SSQ/Coursera-UW-Machine-Learning-Clustering-Retrieval/tree/master/Week%201%20PA%202)
+
+- Week 3 Clustering with k-means
+  - Describe potential applications of clustering
+  - Describe the input (unlabeled observations) and output (labels) of a clustering algorithm
+  - Determine whether a task is supervised or unsupervised
+  - Cluster documents using k-means
+  - Interpret k-means as a coordinate descent algorithm
+  - Define data parallel problems
+  - Explain Map and Reduce steps of MapReduce framework
+  - Use existing MapReduce implementations to parallelize kmeans, understanding what’s being done under the hood
+  - [x] [Clustering text data with k-means](https://github.com/SSQ/Coursera-UW-Machine-Learning-Clustering-Retrieval/tree/master/Week%203%20PA%201)
+  
+- Week 4 Mixture Models: Model-Based Clustering
+  - Interpret a probabilistic model-based approach to clustering using mixture models
+  - Describe model parameters
+  - Motivate the utility of soft assignments and describe what they represent
+  - Discuss issues related to how the number of parameters grow with the number of dimensions
+    - Interpret diagonal covariance versions of mixtures of Gaussians
+  - Compare and contrast mixtures of Gaussians and k-means
+  - Implement an EM algorithm for inferring soft assignments and cluster parameters
+    - Determine an initialization strategy
+    - Implement a variant that helps avoid overfitting issues
+  - [x] [Implementing EM for Gaussian mixtures](https://github.com/SSQ/Coursera-UW-Machine-Learning-Clustering-Retrieval/tree/master/Week%204%20PA%201)
+  - [x] [Clustering text data with Gaussian mixtures](https://github.com/SSQ/Coursera-UW-Machine-Learning-Clustering-Retrieval/tree/master/Week%204%20PA%202)
+    
+- Week 5 Latent Dirichlet Allocation: Mixed Membership Modeling
+  - Compare and contrast clustering and mixed membership models
+  - Describe a document clustering model for the bagof-words doc representation
+  - Interpret the components of the LDA mixed membership model
+  - Analyze a learned LDA model
+    - Topics in the corpus
+    - Topics per document
+  - Describe Gibbs sampling steps at a high level
+  - Utilize Gibbs sampling output to form predictions or estimate model parameters
+  - Implement collapsed Gibbs sampling for LDA
+  - [x] [Modeling text topics with Latent Dirichlet Allocation](https://github.com/SSQ/Coursera-UW-Machine-Learning-Clustering-Retrieval/tree/master/Week%205%20PA%201)
+  
+- Week 6 Hierarchical Clustering & Closing Remarks
+  - Bonus content: Hierarchical clustering
+    - Divisive clustering
+    - Agglomerative clustering
+      - The dendrogram for agglomerative clustering
+      - Agglomerative clustering details
+  - Hidden Markov models (HMMs): Another notion of “clustering”
+  - [x] [Modeling text data with a hierarchy of clusters](https://github.com/SSQ/Coursera-UW-Machine-Learning-Clustering-Retrieval/tree/master/Week%206%20PA%201)
