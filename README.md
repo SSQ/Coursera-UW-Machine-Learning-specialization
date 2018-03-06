@@ -127,7 +127,7 @@ Course can be found in [Coursera](https://www.coursera.org/learn/ml-regression)
     </td>
   </tr>
 </table>
-  
+
 Slides and more details about this course can be found in my Github [SSQ](https://github.com/SSQ/Coursera-UW-Machine-Learning-Regression)
 
 - Week 1: Simple Linear Regression:
